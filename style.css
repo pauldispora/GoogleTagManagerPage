@@ -44,17 +44,17 @@ body {
     font-size: 18px;
 }
 
-.social-buttons {
-    margin-top: 30px;
-}
-
 .social-button {
     display: inline-block;
-    background-color: #C5B8AC;
-    color: #000000;
-    padding: 10px 20px;
+    padding: 10px;
     margin: 5px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 18px;
+    /* Adjust the background color if needed */
+}
+
+.social-icon {
+    width: 30px; /* Adjust the size of the icons as needed */
+    height: auto;
+    display: block;
 }
