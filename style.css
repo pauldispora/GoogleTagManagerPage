@@ -11,12 +11,26 @@ body {
     max-width: 600px;
     margin: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
-    width: 100%;
-    max-width: 200px; /* Adjust size as needed */
-    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: start;
+    }
+    .logo {
+        margin-right: 20px;
+    }
 }
 
 .link-button {
@@ -43,10 +57,4 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-}
-
-.fb { /* Additional styles for Facebook button */
-}
-
-.tt { /* Additional styles for TikTok button */
 }
