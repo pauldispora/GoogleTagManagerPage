@@ -54,7 +54,14 @@ body {
 }
 
 .social-icon {
-    width: 30px; /* Adjust the size of the icons as needed */
+    width: 30px; /* Default size */
     height: auto;
     display: block;
+}
+
+/* Adjust size for mobile screens */
+@media (max-width: 768px) {
+    .social-icon {
+        width: 20px; /* Smaller size for mobile */
+    }
 }
