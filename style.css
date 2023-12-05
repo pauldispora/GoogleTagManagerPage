@@ -23,13 +23,19 @@ body {
     margin: 0 auto 20px;
 }
 
+/* Change to row layout for desktop screens */
 @media (min-width: 768px) {
     .container {
-        flex-direction: row;
-        justify-content: start;
+        flex-direction: row; /* Horizontal layout for desktop */
+        justify-content: center; /* Center items horizontally */
+        flex-wrap: wrap; /* Allows items to wrap if needed */
     }
     .logo {
-        margin-right: 20px;
+        margin-right: 20px; /* Space after logo */
+        margin-bottom: 0; /* Remove bottom margin on desktop */
+    }
+    .link-button, .social-button {
+        margin: 10px; /* Adjust margin for better spacing */
     }
 }
 
