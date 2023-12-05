@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap; /* Enable wrapping */
 }
 
 .logo {
@@ -28,7 +29,6 @@ body {
     .container {
         flex-direction: row; /* Horizontal layout for desktop */
         justify-content: center; /* Center items horizontally */
-        flex-wrap: wrap; /* Allows items to wrap if needed */
     }
     .logo {
         margin-right: 20px; /* Space after logo */
@@ -36,6 +36,12 @@ body {
     }
     .link-button, .social-button {
         margin: 10px; /* Adjust margin for better spacing */
+    }
+    .social-buttons {
+        width: 100%; /* Take full width to move to new row */
+        justify-content: center; /* Center the social buttons */
+        display: flex;
+        flex-direction: row; /* Arrange icons horizontally */
     }
 }
 
