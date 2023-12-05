@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F4F1;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.link-button {
+    display: block;
+    background-color: #C5B8AC;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px auto;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.social-buttons {
+    margin-top: 30px;
+}
+
+.social-button {
+    display: inline-block;
+    background-color: #C5B8AC;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.fb { /* Additional styles for Facebook button */
+}
+
+.tt { /* Additional styles for TikTok button */
+}
