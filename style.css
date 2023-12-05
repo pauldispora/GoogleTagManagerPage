@@ -29,6 +29,7 @@ body {
     .container {
         flex-direction: row; /* Horizontal layout for desktop */
         justify-content: center; /* Center items horizontally */
+        flex-wrap: wrap; /* Allow wrapping to new line */
     }
     .logo {
         margin-right: 20px; /* Space after logo */
@@ -38,10 +39,10 @@ body {
         margin: 10px; /* Adjust margin for better spacing */
     }
     .social-buttons {
-        width: 100%; /* Take full width to move to new row */
-        justify-content: center; /* Center the social buttons */
+        width: 100%; /* Take full width to force new row */
         display: flex;
-        flex-direction: row; /* Arrange icons horizontally */
+        justify-content: center; /* Center the social buttons */
+        flex-basis: 100%; /* Force to occupy a new row */
     }
 }
 
